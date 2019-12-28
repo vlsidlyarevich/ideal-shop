@@ -1,16 +1,16 @@
-package com.github.vlsidlyarevich.idealshop;
+package com.github.vlsidlyarevich.idealshop.config_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IdealShopApplication {
+public class ConfigServiceApplication {
 
     public static void main(String[] args) {
         var test = """
                 test
                 """;
-        SpringApplication.run(IdealShopApplication.class, args);
+        SpringApplication.run(ConfigServiceApplication.class, args);
     }
 
 }
