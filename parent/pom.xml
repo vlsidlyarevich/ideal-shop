@@ -30,11 +30,17 @@
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
-                <scope>runtime</scope>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
+<!--    <dependencies>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-config</artifactId>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
 <!--    <dependencies>-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
