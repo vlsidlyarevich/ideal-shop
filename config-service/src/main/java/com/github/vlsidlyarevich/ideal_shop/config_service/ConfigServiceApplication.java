@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.idealshop.config_service;
+package com.github.vlsidlyarevich.ideal_shop.config_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

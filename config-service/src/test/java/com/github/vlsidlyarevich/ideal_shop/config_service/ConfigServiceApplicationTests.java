@@ -1,10 +1,10 @@
-package com.github.vlsidlyarevich.idealshop.discovery_service;
+package com.github.vlsidlyarevich.ideal_shop.config_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DiscoveryServiceApplicationTests {
+class ConfigServiceApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.idealshop.discovery_service;
+package com.github.vlsidlyarevich.ideal_shop.discovery_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
