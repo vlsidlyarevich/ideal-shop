@@ -1,15 +1,12 @@
-/*
-package com.github.vlsidlyarevich.idealshop;
+package com.github.vlsidlyarevich.idealshop.config_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IdealShopApplicationTests {
+class ConfigServiceApplicationTests {
 
     @Test
     void contextLoads() {
     }
-
 }
-*/
