@@ -7,7 +7,7 @@ spring:
   security:
     user:
       name: discovery-client
-      password: ak%Au1bS8
+      password: ak$Au1bS8
 
 eureka:
   instance:
