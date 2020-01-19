@@ -17,4 +17,5 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/config-repo
+          uri:  https://github.com/vlsidlyarevich/ideal-shop
+          search-paths: 'config-repo/{application}'
