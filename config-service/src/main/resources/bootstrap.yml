@@ -17,5 +17,7 @@ spring:
     config:
       server:
         git:
-          uri:  https://github.com/vlsidlyarevich/ideal-shop
-          search-paths: 'config-repo/{application}'
+          uri:  https://github.com/vlsidlyarevich/ideal-shop-config
+          search-paths: '{application}'
+          clone-on-start: true
+          basedir: ./config-repo
