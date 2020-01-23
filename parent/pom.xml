@@ -10,7 +10,7 @@
     </parent>
     <packaging>pom</packaging>
 
-    <groupId>com.github.vlsidlyarevich</groupId>
+    <groupId>com.github.vlsidlyarevich.ideal-shop</groupId>
     <artifactId>ideal-shop-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
