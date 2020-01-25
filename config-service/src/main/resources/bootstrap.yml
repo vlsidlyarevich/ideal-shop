@@ -7,7 +7,7 @@ eureka:
       name: discovery-client
       password: ak$Au1bS8
     service-url:
-      defaultZone: http://${eureka.client.security.name}:${eureka.client.security.password}@localhost:8761/eureka/
+      defaultZone: http://${eureka.client.security.name}:${eureka.client.security.password}@localhost:8889/eureka/
     should-enforce-registration-at-init: true
 
 spring:

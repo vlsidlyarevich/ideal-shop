@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: store-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+
+eureka:
+  client:
+    security:
+      name: discovery-client
+      password: ak$Au1bS8
+    service-url:
+      defaultZone: http://${eureka.client.security.name}:${eureka.client.security.password}@localhost:8889/eureka/
+    should-enforce-registration-at-init: true
